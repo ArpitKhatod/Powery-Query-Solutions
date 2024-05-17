@@ -1,0 +1,1 @@
+= Table.AddColumn(#"FilteredRows1", "Folder Created Date", each Text.Combine({Text.Middle([Folder Path], 130, 2), Text.Middle([Folder Path], 125, 5)}), type date)
